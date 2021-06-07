@@ -21,8 +21,25 @@ def add(numbers):
 
 #Test Cases
 #part 1
+"""
+print("expected 0")
 print(add(""))    
+print("expected 3")
 print(add("1,2"))
+"""
 
-#part 2 
+#part 2 any number of numbers 
+"""
+print("expected 449")
 print(add("4 6 55 5 3 34 342"))
+"""
+
+#part 3 handle newlines \n
+print("expected 9")
+print(add("3\n3\n3"))
+print("expected 6")
+print(add("1\n2,3"))
+print("expected 0")
+print(add("\n"))
+
+
